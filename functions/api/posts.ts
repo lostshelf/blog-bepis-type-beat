@@ -1,3 +1,5 @@
+/// <reference types="@cloudflare/workers-types" />
+
 import type { PagesFunction } from "@cloudflare/workers-types";
 import { Response } from "@cloudflare/workers-types";
 
