@@ -1,7 +1,6 @@
 /// <reference types="@cloudflare/workers-types" />
 
 import type { PagesFunction } from "@cloudflare/workers-types";
-import { Response } from "@cloudflare/workers-types";
 
 export const onRequestGet: PagesFunction = async (context) => {
   const kv = (context.env as any).BLOG_POSTS as KVNamespace;
